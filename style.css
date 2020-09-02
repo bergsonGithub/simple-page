@@ -51,3 +51,24 @@ body{
 .nav-link:hover{
     background-color: coral;
 }
+
+/*Content*/
+
+.content{
+    padding: 20px;
+}
+.content-title{
+    margin: 0;
+    font-size: 24px;
+    color: red;
+}
+.content-text{
+    margin-bottom: 20px;
+}
+.read-more{
+     color: black;
+    text-decoration: none;
+}
+.read-more:hover{
+    text-decoration: underline;
+}
