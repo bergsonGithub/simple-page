@@ -1,7 +1,31 @@
 body{
     margin: 0;
+
     font-family: Arial, sans-serif;
     font-size: 15px;
     line-height: 1.5;
     color: darkblue;
+}
+.page{
+    width: 800px;
+    margin: 20px auto;
+}
+.header{
+    padding: 20px;
+    background-color: #121212;
+}
+.header-title{
+    margin: 0;
+
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+.header-subtitle{
+    margin: 0;
+
+    font-size: 16px;
+    color: #2039a3;
+    text-align: center;
+    font-weight: normal;
 }
