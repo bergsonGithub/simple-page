@@ -6,7 +6,7 @@ body{
     line-height: 1.5;
     color: darkblue;
 
-    background: url("img/bg.png");
+    background: url("img/bg.png") #070505;
 }
 .page{
     width: 800px;
@@ -109,4 +109,12 @@ body{
 
     color: #ffffff;
     text-align: center;
+}
+/* Form */
+.form {
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+
+    background-color: #fff;
 }
