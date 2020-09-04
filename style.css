@@ -8,6 +8,13 @@ body{
 
     background: url("img/bg.png") #070505;
 }
+.title {
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
 .page{
     width: 800px;
     margin: 20px auto;
@@ -146,9 +153,11 @@ body{
     padding: 5px;
 
     border: 1px solid #000;
+    outline-width: 5px;
+    outline-style: dotted;
+    outline-color: red;
 
-    font-family: Arial, sans-serif;
-    font-size: 15px;
+    font: bold italic 15px Arial, sans-serif;
 }
 
 
@@ -187,4 +196,13 @@ body{
     color: #808080;
     cursor: not-allowed;
     border: 1px solid #444;
+}
+.form-fieldset {
+    margin-bottom: 20px;
+    padding: 20px;
+
+    border: 1px solid #ccc;
+}
+.form-title {
+    margin: 0 0 15px;
 }
